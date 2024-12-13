@@ -38,7 +38,7 @@ def _get_value(name, default_value, value_type):
 _default_options_objects = [
     {
         'name': 'HOST',
-        'default_value': '0.0.0.0',
+        'default_value': 'localhost',
         'value_type': 'str'
     },
     {
